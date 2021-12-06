@@ -1,0 +1,49 @@
+{
+    "dashboard": {
+        "WELCOME": "Bienvenido a Angle !"
+    },
+    "topbar": {
+        "search": {
+            "PLACEHOLDER": "Escriba y pulsa enter.."
+        }
+    },
+    "sidebar": {
+        "WELCOME": "Bienvenido",
+        "heading": {
+            "HEADER": "Navegación Principal"
+        },
+        "nav": {
+            "SINGLEVIEW": "Una sola vista",
+            "menu": {
+                "MENU": "Menu",
+                "SUBMENU": "Sub Menu"
+            }
+        }
+    },
+    "sidebarright": {
+        "TAB1": "Ajustes",
+        "heading": {
+            "THEMES": "Temas",    
+            "LAYOUT": "Layout",
+            "inner_layout": {
+                "FIXED": "Fijo",
+                "BOXED": "En caja"
+            },                    
+            "ASIDE": "Aparte",
+            "inner_aside": {
+                "COLLAPSED": "Contraído",
+                "COLLAPSED_TEXT": "Contraído-Texto",
+                "FLOAT": "Flotador",
+                "HOVER": "Flotar",
+                "SHOW_SCROLLBAR": "Barra de desplazamiento"
+            },                    
+            "LANGUAGE": "Idioma",
+            "inner_language": {
+                "PORTUGUESE": "Português",
+                "ENGLISH": "English",
+                "SPANISH": "Español"
+            }
+        },
+        "TAB2": "Tab 2"
+    }
+}

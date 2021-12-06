@@ -1,0 +1,49 @@
+{
+    "dashboard": {
+        "WELCOME": "Bem-vindo ao TWG !"
+    },
+    "topbar": {
+        "search": {
+            "PLACEHOLDER": "Digite e pressione enter .."
+        }
+    },
+    "sidebar": {
+        "WELCOME": "Bem vindo",
+        "heading": {
+            "HEADER": "Menu Principal"
+        },
+        "nav": {
+            "SINGLEVIEW": "Visualização simples",
+            "menu": {
+                "MENU": "Menu",
+                "SUBMENU": "Sub Menu"
+            }
+        }
+    },
+    "sidebarright": {
+        "TAB1": "Configurações",
+        "heading": {
+            "THEMES": "Temas",    
+            "LAYOUT": "Layout",
+            "inner_layout": {
+                "FIXED": "Fixo",
+                "BOXED": "Em caixa"
+            },                    
+            "ASIDE": "Lateral",
+            "inner_aside": {
+                "COLLAPSED": "Contraído",
+                "COLLAPSED_TEXT": "Contraído-Texto",
+                "FLOAT": "Float",
+                "HOVER": "Hover",
+                "SHOW_SCROLLBAR": "Mostrar Barra de rolagem"
+            },                    
+            "LANGUAGE": "Idioma",
+            "inner_language": {
+                "PORTUGUESE": "Português",
+                "ENGLISH": "English",
+                "SPANISH": "Español"
+            }
+        },
+        "TAB2": "Tab 2"
+    }
+}

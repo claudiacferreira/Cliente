@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21/09/2017, 19:09:00
+    Author     : anderson
+*/
+
+.padding-top-10{
+    padding-top: 10px;
+}
+.nowrap {
+    white-space: nowrap;
+}
+
+@media ( max-width: 414px){
+	.btn-sm-mobile {
+        padding: 2px 7px;
+    }
+}
+
+.animationload {
+    background-color: #00000042;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    display: none;
+}
+.osahanloading {
+    animation: 1.5s linear 0s normal none infinite running osahanloading;
+    background: #fed37f none repeat scroll 0 0;
+    border-radius: 50px;
+    height: 50px;
+    left: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    position: absolute;
+    top: 50%;
+    width: 50px;
+}
+.osahanloading::after {
+    animation: 1.5s linear 0s normal none infinite running osahanloading_after;
+    border-color: #85d6de transparent;
+    border-radius: 80px;
+    border-style: solid;
+    border-width: 10px;
+    content: "";
+    height: 80px;
+    left: -15px;
+    position: absolute;
+    top: -15px;
+    width: 80px;
+}
+@keyframes osahanloading {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        background: #85d6de none repeat scroll 0 0;
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.subTotais {
+    font-size: 20px;
+}
+
+
+.subTotais span {
+    font-weight: bold;
+}
+
+.geralTotal {
+    font-size: 30px;
+}
+
+
+.geralTotal span {
+    font-weight: bold;
+}
